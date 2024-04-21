@@ -39,10 +39,10 @@ jobs:
 
     - name: Prepare Toolchain Image
       run: |
-        CACHE_HASH=$(curl -fSsL https://github.com/haiibo/OpenWrt/releases/download/Toolchain/toolchain-lede-master-${{ matrix.target }}.hash)
+        CACHE_HASH=$(curl -fSsL https://github.com/huoyubaba/OpenWrt/releases/download/Toolchain/toolchain-lede-master-${{ matrix.target }}.hash)
         for i in {0..9}
         do
-          curl -fsL https://github.com/haiibo/OpenWrt/releases/download/Toolchain/toolchain-lede-master-${{ matrix.target }}.img.0$i >> toolchain-lede-master-${{ matrix.target }}.img || break
+          curl -fsL https://github.com/huoyubaba/OpenWrt/releases/download/Toolchain/toolchain-lede-master-${{ matrix.target }}.img.0$i >> toolchain-lede-master-${{ matrix.target }}.img || break
         done
         mkdir openwrt-ro openwrt workdir overlay
         sudo mount -o loop toolchain-lede-master-${{ matrix.target }}.img openwrt-ro
