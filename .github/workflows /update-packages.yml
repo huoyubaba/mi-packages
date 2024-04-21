@@ -8,7 +8,7 @@ on:
     types: started
 
 env:
-  REPO_URL: github.com/haiibo/openwrt-packages
+  REPO_URL: github.com/huoyubaba/mi-packages
   REPO_BRANCH: master
   SCRIPT: packages.sh
   TZ: Asia/Shanghai
