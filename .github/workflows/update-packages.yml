@@ -8,8 +8,8 @@ on:
     types: started
 
 env:
-  REPO_URL: github.com/huoyubaba/packages
-  REPO_BRANCH: huoyubaba
+  REPO_URL: github.com/huoyubaba/mi-packages
+  REPO_BRANCH: main
   SCRIPT: packages.sh
   TZ: Asia/Shanghai
 
