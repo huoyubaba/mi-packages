@@ -21,8 +21,8 @@ git clone --depth=1 https://github.com/ntlf9t/luci-app-easymesh
 git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns smartdns
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-adguardhome
-git clone https://github.com/tohojo/sqm-scripts.git package/sqm-scripts
-git clone https://github.com/rufengsuixing/luci-app-usb3disable package/luci-app-usb3disable
+git clone https://github.com/tohojo/sqm-scripts sqm-scripts
+git clone https://github.com/rufengsuixing/luci-app-usb3disable luci-app-usb3disable
 
 git clone https://github.com/fullcone-nat-nftables/nft-fullcone
 git clone https://github.com/chenmozhijin/turboacc
