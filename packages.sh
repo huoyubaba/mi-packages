@@ -27,9 +27,9 @@ git clone https://github.com/rufengsuixing/luci-app-usb3disable package/luci-app
 git clone https://github.com/fullcone-nat-nftables/nft-fullcone
 git clone https://github.com/chenmozhijin/turboacc
 
-git_sparse_clone main https://github.com/kiddin9/openwrt-packages luci-app-oaf open-app-filter oaf 
-git_sparse_clone main https://github.com/kiddin9/openwrt-packages luci-app-arpbind luci-app-vsftpd vsftpd-alt 
-git_sparse_clone main https://github.com/kiddin9/openwrt-packages luci-app-vlmcsd vlmcsd
+git_sparse_clone master https://github.com/kiddin9/openwrt-packages luci-app-oaf open-app-filter oaf 
+git_sparse_clone master https://github.com/kiddin9/openwrt-packages luci-app-arpbind luci-app-vsftpd vsftpd-alt 
+git_sparse_clone master https://github.com/kiddin9/openwrt-packages luci-app-vlmcsd vlmcsd
 
 rm -rf ./*/.git* ./*/LICENSE
 find ./*/ -type f -name '*.md' -print -exec rm -rf {} \;
