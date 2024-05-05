@@ -8,7 +8,8 @@ on:
     - cron: 0 * * * *
 
 env:
-  REPO_URL: https://github.com/huoyubaba/BlueFire
+  REPO_URL: https://github.com/huoyubaba/Test-items
+
   REPO_BRANCH: main
   TZ: Asia/Shanghai
 
@@ -20,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [armvirt-64, bcm27xx-bcm2710, bcm27xx-bcm2711, rockchip-armv8, x86-64]
+        target: [test,new2]
 
     steps:
     - name: Checkout
